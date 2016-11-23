@@ -5,14 +5,10 @@ using namespace std;
 
 
 int main(){
-    long i = 100000000l;
-    clock_t start,finish;
-    cout << "Time :" ;
-    start = clock();
-    while(i--);
-    finish = clock();
-    double duration = (double)(finish - start);/// CLOCKS_PER_SEC;
-    cout << duration << " ms" << endl;
- 
+    int A=10000;
+    int high = A &0xFF;
+    int low = (A >> 8) & 0xFF;
+    cout <<"high = " << high << endl;
+    cout <<"low = " << low << endl;
     return 1;
 }
