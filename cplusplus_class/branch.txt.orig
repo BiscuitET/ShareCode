@@ -1,0 +1,7 @@
+This file was created by "fixbug" branch !!
+second time to change this file 
+<<<<<<< HEAD
+together modified this file
+=======
+add msgs by fixbug branch
+>>>>>>> fixbug
