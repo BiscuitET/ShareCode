@@ -1,4 +1,4 @@
-#include "smart_pointer.h"
+#include "smart_pointer/smart_pointer.h"
 namespace sp {
 SMART_P::SMART_P(){
     std::cout <<"This is the construct function of my SMART_P class." << std::endl;
